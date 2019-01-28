@@ -5,7 +5,7 @@ It takes an excel (xslx) file as input, and prints all rows and columns
 of a given worksheet to the STDOUT. This is very handy when you want
 to automate stuff.
 
-![alt text](https://github.com/derhackler/catexcel/demo.gif "Overview")
+![Example](demo.gif "Example")
 
 ## Installation
 
