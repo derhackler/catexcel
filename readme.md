@@ -5,6 +5,8 @@ It takes an excel (xslx) file as input, and prints all rows and columns
 of a given worksheet to the STDOUT. This is very handy when you want
 to automate stuff.
 
+![alt text](https://github.com/derhackler/catexcel/demo.gif "Overview")
+
 ## Installation
 
 Download from the releases folder and put into your path.
@@ -31,9 +33,8 @@ Search for everyone who is called Smith and has brown hair
 Print firstname and birthday.
 
 ```sh
-catexcel example.xslx | awk '/Smith\\tbrown/' | cut -f 1,4
+catexcel example.xslx | awk '/Smith\tbrown/' | cut -f 1,4
 ```
-
 
 ## Development setup
 1. Make sure you have golang installed.
@@ -43,7 +44,7 @@ catexcel example.xslx | awk '/Smith\\tbrown/' | cut -f 1,4
 ```ps
 go get github.com/360EntSecGroup-Skylar/excelize
 ```
-
+xlsx
 4. Building on Windows (for both Windows and Unix) from Powershell:
 
 ```ps
